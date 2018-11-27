@@ -21,3 +21,25 @@ print ("this is test")
 1
 >>> print(urls.count('b.txt'))
 0
+
+
+
+>>> def sum():
+	sum = 0
+	for i in range(0, 1000):
+		if i%3 == 0 or i%5 == 0:
+			sum += i
+
+			
+>>> print(sum())
+None
+>>> def sum():
+	sum = 0
+	for i in range(0, 1000):
+		if i%3 == 0 or i%5 == 0:
+			sum += i
+	return sum
+
+>>> print(sum())
+233168
+>>> 
